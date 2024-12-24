@@ -64,9 +64,24 @@ img {
     border-radius: 1rem;
 }
 
+.copy-right{
+    color: #081b31;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    font-size: 17px;
+}
+
+.copy-right span{
+    color: rgb(0, 91, 181);
+    cursor: pointer;
+}
+
 @media(max-width: 550px) {
     .choices {
     gap: 1rem !important;
+}
+    .copy-right{
+    font-size: 14px;
 }
 }
 
